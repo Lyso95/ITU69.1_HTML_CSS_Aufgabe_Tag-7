@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Shadow</title>
+    <link rel="stylesheet" href="al_styles.css">
+</head>
+<body>
+    <nav class="topnav">
+        <a class="active" href="#home">Box-Shadow</a>
+        <a href="./filters.html">CSS Filter</a>
+        <a href="#about">About</a>
+    </nav>
+    <main>
+        <section id="shadows">
+        <h1>Box-Shadow und Border-Radius</h1>
+        <div class="box-container-1">
+            <div class="card" id="box1">
+                <h3>box-shadow</h3>
+                <p>
+                    box-shadow: 10px 10px grey; <br><br>
+                    Erstellt einen Schatten mit, das so genannte Offset (Versetzung) definiert die Größe für den Schatten.
+                    Im oben stehenden Beispiel 10px auf der horizontalen X-Achse und 10px auf der vertikalen Y-Achse.
+                </p>
+            </div>
+            <div class="card" id="box2">
+                <h3>Weiche Kanten</h3>
+                <p>
+                    box-shadow: 10px 10px 15px grey;
+                    <br><br>
+                    Als dritten Wert können wir einen Blur(Verschwommenheit) setzen, um den Schatten weicher zu machen. Der Standardwert ist 0. 
+                </p>
+            </div>
+            <div class="card" id="box3">
+                <h3>Inset</h3>
+                <p>
+                    box-shadow: inset 0px 4px 8px 2px dimgray;
+                    <br><br>
+                    Über Inset können wir den Schatten nach innen setzen.
+                </p>
+            </div>
+            <div class="card" id="box4">
+                <h3>text-shadow</h3>
+                <br>
+                <p>Kann auch als Stilmittel für Text eingesetzt werden.</p>
+            </div>
+            <div class="card" id="box5">
+                <h3>border-radius</h3>
+                <p>
+                    Ist eine Kurzschreibweise von: <br>
+                    border-top-left-radius, <br>
+                    border-top-right-radius <br>
+                    border-bottom-right-radius <br>
+                    border-bottom-left-radius <br><br>
+                    Hierdurch können wir die Rundungen der Kanten festlegen
+                </p>
+
+            </div>
+            <div class="card" id="box6">
+                <h3>Anordnung der Kanten</h3>
+                <p>
+                    Es ist möglich weniger als die vier Werte im Border-Radius anzugeben.
+                    Beispielsweise bei zwei Werten die gegenüberliegenden Ecken.<br>
+                    border-radius: 5px 30px;
+                </p>
+            </div>
+            <div class="card" id="box7">
+                <h3>Material Design Box Shadow</h3>
+                <p>Die verschiedenen Designsysteme setzen eine Kombination aus den oben genannten CSS-Attributen ein.</p>
+
+            </div>
+            <div class="card" id="box8">
+                <h3>UI Flare Box Shadow</h3>
+                <p>
+                    Auch mehrere Schatten, die per Komma getrennt angegeben werden, lassen sich interessante Elemente auf der Homepage erstellen.
+                </p>
+            </div>
+        </div>
+        <a href="https://htmlcssfreebies.com/css-box-shadow-examples/">Weitere Beispiele findest du hier.</a>
+    </section>
+    </main>
+    
+</body>
+</html>
